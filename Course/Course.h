@@ -7,18 +7,16 @@ using namespace std;
 
 class Course
 {
-
-	int code;
 	string name;
 	bool isElective;
 	string instructor;
 	int MaxNumOfStud;
 	int hours;
-	vector<Course>PreReqCourses;
+	vector<int>PreReqCourses;
 
 public:
 
-	void insert(int code, string name, string instructor, int MaxNumOfStud, int hours, vector<Course>PreReqCourses = {});
+	void insert(string name, string instructor, int MaxNumOfStud, int hours, vector<int>PreReqCourses = {});
 	void DisplayData();
 
 };

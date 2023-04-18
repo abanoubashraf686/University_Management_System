@@ -6,28 +6,27 @@ using namespace std;
 
 int main() {
 
-	vector<Course>arr;
+	vector<Course>courses;
 
-	Course obj1;
-	obj1.insert(6, "Programming 1", "DR.Hanan", 1000, 400);
+	Course c1;
+	c1.insert("Programming 1", "Dr.Hanan", 500, 3);
 
-	Course obj3;
-	obj3.insert(1, "Programming 3", "DR.Hanan", 500, 2);
+	Course c2;
+	c2.insert("Programming 2", "Dr.Hanan", 1000, 6, { 0 });
 
-	Course obj2;
-	obj2.insert(5, "Programming 2", "DR.Hanan", 400, 2, { obj1 , obj3 });
+	Course c3;
+	c3.insert("Programming 3", "Dr.Hanan", 2000, 12, { 0,1 });
 
+	courses.push_back(c1);
+	courses.push_back(c2);
+	courses.push_back(c3);
 
-	arr.push_back(obj1);
-	arr.push_back(obj3);
-	arr.push_back(obj2);
-
-	for (auto course : arr) {
+	for (auto course : courses) {
 		course.DisplayData();
-		cout << "================================" << "\n";
+		cout << "############################\n";
 	}
 
-	//obj2.DisplayData();
+	//courses[0].DisplayData();
 
 	return 0;
 
