@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\Admin.h" />
     <ClInclude Include="Course.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\Admin.cpp" />
     <ClCompile Include="Course.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
