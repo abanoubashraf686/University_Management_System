@@ -1,0 +1,43 @@
+﻿  Admin.cpp
+C:\Users\a\source\repos\University Management System\University Management System\Admin.h(10,14): error C2065: 'Course': undeclared identifier
+C:\Users\a\source\repos\University Management System\University Management System\Admin.h(10,7): error C2923: 'std::vector': 'Course' is not a valid template type argument for parameter '_Ty'
+C:\Users\a\source\repos\University Management System\University Management System\Admin.h(10): message : see declaration of 'Course'
+C:\Users\a\source\repos\University Management System\University Management System\Admin.h(10,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(432): message : see declaration of 'std::vector'
+C:\Users\a\source\repos\University Management System\University Management System\Admin.h(16,17): error C2061: syntax error: identifier 'Course'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(22,1): error C2011: 'Course': 'class' type redefinition
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(5): message : see declaration of 'Course'
+C:\Users\a\source\repos\University Management System\University Management System\Admin.cpp(5,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(432,1): message : see declaration of 'std::vector'
+C:\Users\a\source\repos\University Management System\University Management System\Admin.cpp(13,41): error C2511: 'void Admin::addCourse(Course)': overloaded member function not found in 'Admin'
+C:\Users\a\source\repos\University Management System\University Management System\Admin.h(6): message : see declaration of 'Admin'
+C:\Users\a\source\repos\University Management System\University Management System\Admin.cpp(13,13): error C2027: use of undefined type 'Course'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(5): message : see declaration of 'Course'
+  Course.cpp
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(7,7): error C2039: 'string': is not a member of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(7,14): error C3646: 'name': unknown override specifier
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(7,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(8,7): error C2039: 'string': is not a member of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(8,14): error C3646: 'code': unknown override specifier
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(8,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(9,7): error C2039: 'string': is not a member of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(9,14): error C3646: 'requirement': unknown override specifier
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(9,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(11,7): error C2039: 'vector': is not a member of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(11,13): error C2143: syntax error: missing ';' before '<'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(11,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(11,19): error C2039: 'string': is not a member of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(11,45): error C2238: unexpected token(s) preceding ';'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(13,7): error C2039: 'string': is not a member of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\predefined C++ types (compiler internal)(341): message : see declaration of 'std'
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(13,14): error C3646: 'instructor': unknown override specifier
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(13,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(22,1): error C2011: 'Course': 'class' type redefinition
+C:\Users\a\source\repos\University Management System\University Management System\Course.h(5): message : see declaration of 'Course'
+  Source.cpp
+  Generating Code...
